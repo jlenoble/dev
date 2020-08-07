@@ -1,0 +1,22 @@
+{
+  "name": "dev",
+  "version": "0.0.0",
+  "description": "dev tools",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlenoble/dev.git"
+  },
+  "keywords": [
+    "devtools"
+  ],
+  "author": "Jason Lenoble",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlenoble/dev/issues"
+  },
+  "homepage": "https://github.com/jlenoble/dev#readme"
+}
