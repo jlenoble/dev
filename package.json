@@ -1,6 +1,7 @@
 {
   "name": "dev",
   "version": "0.0.0",
+  "private": true,
   "description": "dev tools",
   "main": "lib/index.js",
   "scripts": {
@@ -13,7 +14,10 @@
   "keywords": [
     "devtools"
   ],
-  "author": "Jason Lenoble",
+  "author": {
+    "name": "Jason Lenoble",
+    "email": "jason.lenoble@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jlenoble/dev/issues"
