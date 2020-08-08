@@ -1,4 +1,8 @@
-private
+# Private files
+/private
+
+# Regenerable files
+/gulp
 
 # Logs
 logs

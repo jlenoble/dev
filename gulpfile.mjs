@@ -1,4 +1,4 @@
-import { Gulp } from "./src/gulp.mjs";
+import { Gulp } from "./gulp/gulp.mjs";
 
 const gulp = new Gulp();
 
