@@ -30,16 +30,16 @@
     "@types/gulp-babel": "^6.1.29",
     "@types/gulp-debug": "^2.0.31",
     "@types/gulp-rename": "0.0.33",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-debug": "^4.0.0",
-    "gulp-rename": "^2.0.0"
-  },
-  "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-rename": "^2.0.0",
     "prettier": "^2.0.5"
   }
 }
