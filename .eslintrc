@@ -11,15 +11,10 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "google",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:jsdoc/recommended"
   ],
   "rules": {
-    "require-jsdoc": [
-      "off"
-    ],
     "prefer-arrow-callback": [
       "error"
     ],
@@ -31,12 +26,14 @@
           "/"
         ]
       }
-    ],
-    "import/newline-after-import": [
-      "error",
-      {
-        "count": 1
-      }
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.ts"
+      ],
+      "parser": "@typescript-eslint/parser"
+    }
+  ]
 }
