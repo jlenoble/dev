@@ -5,7 +5,8 @@
   "description": "dev tools",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "gulp --gulpfile=gulpfile-bootstrap.mjs"
   },
   "repository": {
     "type": "git",
@@ -23,15 +24,17 @@
     "url": "https://github.com/jlenoble/dev/issues"
   },
   "homepage": "https://github.com/jlenoble/dev#readme",
-  "devDependencies": {
+  "dependencies": {
     "@types/gulp": "^4.0.6",
     "@types/gulp-debug": "^2.0.31",
+    "gulp": "^4.0.2",
+    "gulp-debug": "^4.0.0"
+  },
+  "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "gulp": "^4.0.2",
-    "gulp-debug": "^4.0.0",
     "prettier": "^2.0.5"
   }
 }
