@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/jlenoble/dev#readme",
   "devDependencies": {
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-debug": "^2.0.31",
     "eslint": "^7.6.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^6.11.0",
