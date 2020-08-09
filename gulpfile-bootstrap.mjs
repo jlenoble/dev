@@ -5,13 +5,11 @@
 import gulp from "gulp";
 import babel from "gulp-babel";
 import eslint from "gulp-eslint";
-import rename from "gulp-rename";
 
 gulp.task("default", () =>
   gulp
     .src("src/**/*.ts")
     .pipe(babel())
-    .pipe(rename({ extname: ".mjs" }))
     .pipe(eslint({ fix: true }))
     .pipe(gulp.dest("gulp"))
 );

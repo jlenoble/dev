@@ -26,6 +26,7 @@
   "homepage": "https://github.com/jlenoble/dev#readme",
   "dependencies": {
     "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
     "@babel/preset-typescript": "^7.10.4",
     "@types/gulp": "^4.0.6",
     "@types/gulp-babel": "^6.1.29",
