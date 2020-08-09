@@ -6,8 +6,7 @@
   },
   "parserOptions": {
     "ecmaVersion": 2020,
-    "sourceType": "module",
-    "ecmaFeatures": {}
+    "sourceType": "module"
   },
   "extends": [
     "eslint:recommended",
@@ -33,7 +32,11 @@
       "files": [
         "**/*.ts"
       ],
-      "parser": "@typescript-eslint/parser"
+      "parser": "@typescript-eslint/parser",
+      "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint"
+      ]
     }
   ]
 }

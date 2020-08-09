@@ -33,6 +33,7 @@
     "@types/gulp-debug": "^2.0.31",
     "@types/gulp-rename": "0.0.33",
     "@types/merge2": "^1.3.0",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
     "@typescript-eslint/parser": "^3.8.0",
     "del": "^5.1.0",
     "eslint": "^7.6.0",
